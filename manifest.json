@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Text Highlighter and Saver",
-  "version": "1.2",
+  "version": "1.3",
   "description": "An extension to highlight and save text from web pages.",
   "background": {
     "scripts": ["background.js"],
@@ -14,5 +14,5 @@
       "run_at": "document_end"
     }
   ],
-  "permissions": ["contextMenus", "storage"]
+  "permissions": ["contextMenus", "storage", "notifications"]
 }
